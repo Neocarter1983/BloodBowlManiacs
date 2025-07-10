@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Griff Oberwald",
+    "cost": "320000",
+    "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "3+", "AR": "8+" },
+    "skills": ["Blocage", "Esquive", "Sprint", "Prise Sûre", "Solitaire (4+)"],
+    "teams": ["Humains", "Union Elfique", "Noblesse Impériale"],
+    "description": "Griff Oberwald, star des Reikland Reavers, est une légende humaine dont la vitesse fulgurante et l'agilité surnaturelle font de lui un cauchemar pour les défenses adverses. Capable de slalomer entre les bloqueurs et de marquer des touchdowns spectaculaires, il est adoré des foules et craint des adversaires. Son charisme et son assurance en font un leader naturel, mais son coût élevé reflète son statut de superstar.",
+    "image": "images/starplayers/griff_oberwald.png",
+    "icon": "images/starplayers/icons/griff_oberwald_icon.png"
+  },
+  {
+    "name": "Morg 'n' Thorg",
+    "cost": "380000",
+    "stats": { "M": 6, "F": 6, "AG": "3+", "CP": "4+", "AR": "10+" },
+    "skills": ["Blocage", "Châtaigne", "Garde", "Lancer de Coéquipier", "Solitaire (4+)"],
+    "teams": ["Chaos Renegades", "Humains", "Ogres", "Orques"],
+    "description": "Morg 'n' Thorg, l'ogre légendaire des Chaos All Stars, est une montagne de muscles capable de pulvériser les lignes ennemies. Sa force brute et son talent pour lancer ses coéquipiers (souvent sans leur consentement) en font un atout polyvalent. Les rumeurs disent qu'il a déjà envoyé un gobelin dans les gradins par erreur, mais Morg se contente de hausser les épaules et de continuer à écraser ses adversaires.",
+    "image": "images/starplayers/morg_n_thorg.png",
+    "icon": "images/starplayers/icons/morg_n_thorg_icon.png"
+  },
+  {
+    "name": "Hakflem Skuttlespike",
+    "cost": "200000",
+    "stats": { "M": 7, "F": 2, "AG": "2+", "CP": "3+", "AR": "7+" },
+    "skills": ["Esquive", "Main Déformée", "Deux Têtes", "Solitaire (4+)"],
+    "teams": ["Skavens", "Underworld Denizens"],
+    "description": "Hakflem Skuttlespike, le skaven mutant à deux têtes, est un coureur insaisissable qui sème la panique dans les défenses. Ses mutations lui permettent de zigzaguer à travers les lignes ennemies, volant le ballon avec une agilité déconcertante. Les fans l'adorent pour ses pitreries, mais ses coéquipiers le craignent pour son imprévisibilité et son rire strident.",
+    "image": "images/starplayers/hakflem_skuttlespike.png",
+    "icon": "images/starplayers/icons/hakflem_skuttlespike_icon.png"
+  },
+  {
+    "name": "Varag Ghoul-Chewer",
+    "cost": "290000",
+    "stats": { "M": 6, "F": 4, "AG": "3+", "CP": "4+", "AR": "9+" },
+    "skills": ["Blocage", "Châtaigne", "Saut", "Solitaire (4+)"],
+    "teams": ["Orques", "Orques Noirs"],
+    "description": "Varag Ghoul-Chewer, l'orc brutal des Gouged Eye, est un blitzer redoutable qui combine force brute et agilité surprenante. Capable de sauter par-dessus les défenseurs pour frapper là où ça fait mal, il est connu pour ses charges dévastatrices et son appétit pour les bagarres. Les légendes disent qu'il a gagné son nom après un incident impliquant un zombie et une pause déjeuner maladroite.",
+    "image": "images/starplayers/varag_ghoul_chewer.png",
+    "icon": "images/starplayers/icons/varag_ghoul_chewer_icon.png"
+  },
+  {
+    "name": "Eldril Sidewinder",
+    "cost": "200000",
+    "stats": { "M": 8, "F": 3, "AG": "2+", "CP": "3+", "AR": "7+" },
+    "skills": ["Réception", "Esquive", "Regard Hypnotique", "Nerfs d’Acier", "Solitaire (4+)"],
+    "teams": ["Elfes Noirs", "Union Elfique"],
+    "description": "Eldril Sidewinder, l'elfe noir aux yeux envoûtants, paralyse ses adversaires avec son regard hypnotique avant de s'élancer vers la zone d'en-but. Sa grâce et son assurance en font une star des foules, mais ses coéquipiers se méfient de son arrogance et de ses manigances. On dit qu'il a déjà convaincu un adversaire de lui donner le ballon... volontairement.",
+    "image": "images/starplayers/eldril_sidewinder.png",
+    "icon": "images/starplayers/icons/eldril_sidewinder_icon.png"
+  },
+  {
+    "name": "Barik Farblast",
+    "cost": "210000",
+    "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "3+", "AR": "8+" },
+    "skills": ["Passe", "Précision", "Arme Secrète", "Solitaire (4+)"],
+    "teams": ["Nains"],
+    "description": "Barik Farblast, le nain artilleur, transporte un canon artisanal qui lance des balles explosives. Sa précision légendaire en fait un atout pour les passes longues, mais son arme secrète le rend sujet à des expulsions rapides. Les coachs le décrivent comme un pari risqué : un touchdown spectaculaire ou une sortie prématurée, il n'y a pas de juste milieu avec Barik.",
+    "image": "images/starplayers/barik_farblast.png",
+    "icon": "images/starplayers/icons/barik_farblast_icon.png"
+  },
+  {
+    "name": "Wilhelm Chaney",
+    "cost": "240000",
+    "stats": { "M": 8, "F": 4, "AG": "3+", "CP": "4+", "AR": "8+" },
+    "skills": ["Réception", "Frénésie", "Griffes", "Régénération", "Solitaire (4+)"],
+    "teams": ["Nécromantiques", "Nordiques"],
+    "description": "Wilhelm Chaney, le loup-garou des Nordiques, est une bête féroce qui déchiquette ses adversaires avec ses griffes acérées. Sa frénésie le pousse à poursuivre ses proies sans relâche, et sa régénération lui permet de revenir des pires blessures. Les fans l'appellent 'la Terreur de la Lune', mais ses coéquipiers évitent de l'énerver pendant les pleines lunes.",
+    "image": "images/starplayers/wilhelm_chaney.png",
+    "icon": "images/starplayers/icons/wilhelm_chaney_icon.png"
+  },
+  {
+    "name": "Grashnak Blackhoof",
+    "cost": "270000",
+    "stats": { "M": 6, "F": 5, "AG": "4+", "CP": "-", "AR": "8+" },
+    "skills": ["Frénésie", "Cornes", "Châtaigne", "Solitaire (4+)"],
+    "teams": ["Chaos", "Chaos Renegades"],
+    "description": "Grashnak Blackhoof, le minotaure des Chaos All Stars, est une force de la nature. Ses cornes et sa puissance brute font trembler les lignes ennemies, et sa frénésie garantit des blocages spectaculaires. Cependant, son tempérament imprévisible peut le mener à charger tête baissée, parfois au détriment de la stratégie de l'équipe.",
+    "image": "images/starplayers/grashnak_blackhoof.png",
+    "icon": "images/starplayers/icons/grashnak_blackhoof_icon.png"
+  },
+  {
+    "name": "Jordell Freshbreeze",
+    "cost": "260000",
+    "stats": { "M": 8, "F": 3, "AG": "2+", "CP": "4+", "AR": "7+" },
+    "skills": ["Blocage", "Esquive", "Saut de Côté", "Nerfs d’Acier", "Solitaire (4+)"],
+    "teams": ["Elfes Sylvains", "Union Elfique"],
+    "description": "Jordell Freshbreeze, l'elfe sylvain des Athelorn Avengers, est une tornade sur le terrain. Sa vitesse et son agilité lui permettent de danser autour des défenseurs, marquant des touchdowns avec une grâce inégalée. Son saut de côté le rend presque intouchable, mais son arrogance peut agacer ses coéquipiers moins talentueux.",
+    "image": "images/starplayers/jordell_freshbreeze.png",
+    "icon": "images/starplayers/icons/jordell_freshbreeze_icon.png"
+  },
+  {
+    "name": "Roxanna Darknail",
+    "cost": "250000",
+    "stats": { "M": 8, "F": 3, "AG": "2+", "CP": "4+", "AR": "7+" },
+    "skills": ["Esquive", "Saut", "Frénésie", "Solitaire (4+)"],
+    "teams": ["Elfes Noirs"],
+    "description": "Roxanna Darknail, la sorcière elfe noire, est une blitzer mortelle dont les sauts acrobatiques et les charges frénétiques terrifient ses adversaires. Sa beauté froide dissimule une soif de violence, et elle n'hésite pas à écraser quiconque se dresse sur son chemin. Les rumeurs parlent d'un pacte sombre qui alimente sa vitesse surnaturelle.",
+    "image": "images/starplayers/roxanna_darknail.png",
+    "icon": "images/starplayers/icons/roxanna_darknail_icon.png"
+  },
+  {
+    "name": "Glart Smashrip",
+    "cost": "210000",
+    "stats": { "M": 7, "F": 4, "AG": "3+", "CP": "-", "AR": "8+" },
+    "skills": ["Blocage", "Griffes", "Arracher le Ballon", "Solitaire (4+)"],
+    "teams": ["Skavens", "Underworld Denizens"],
+    "description": "Glart Smashrip, le rat ogre skaven, est une machine à blessures. Ses griffes acérées et son talent pour arracher le ballon en font un cauchemar pour les porteurs adverses. Son rire guttural et son regard fou intimident même ses propres coéquipiers, qui évitent de lui demander pourquoi il collectionne les casques des adversaires vaincus.",
+    "image": "images/starplayers/glart_smashrip.png",
+    "icon": "images/starplayers/icons/glart_smashrip_icon.png"
+  },
+  {
+    "name": "Bomber Dribblesnot",
+    "cost": "50000",
+    "stats": { "M": 6, "F": 2, "AG": "3+", "CP": "3+", "AR": "7+" },
+    "skills": ["Bombardier", "Arme Secrète", "Précision", "Solitaire (4+)"],
+    "teams": ["Gobelins", "Ogres", "Underworld Denizens"],
+    "description": "Bomber Dribblesnot, le gobelin pyromane, adore lancer des bombes explosives qui sèment le chaos sur le terrain. Sa petite taille et sa précision surprenante en font un atout pour perturber les stratégies adverses, mais son arme secrète le rend vulnérable aux expulsions. Les fans l'adorent pour ses explosions spectaculaires, moins pour les trous dans le terrain.",
+    "image": "images/starplayers/bomber_dribblesnot.png",
+    "icon": "images/starplayers/icons/bomber_dribblesnot_icon.png"
+  },
+  {
+    "name": "The Black Gobbo",
+    "cost": "80000",
+    "stats": { "M": 6, "F": 2, "AG": "3+", "CP": "3+", "AR": "7+" },
+    "skills": ["Bombardier", "Esquive", "Poignard", "Solitaire (4+)"],
+    "teams": ["Gobelins", "Underworld Denizens"],
+    "description": "The Black Gobbo, le gobelin le plus sournois du circuit, combine bombes explosives et coups de poignard vicieux. Sa capacité à esquiver les représailles le rend insaisissable, mais son rire hystérique et ses blagues douteuses ne plaisent pas à tout le monde. On dit qu'il cache un arsenal entier sous sa cape.",
+    "image": "images/starplayers/the_black_gobbo.png",
+    "icon": "images/starplayers/icons/the_black_gobbo_icon.png"
+  },
+  {
+    "name": "Zzharg Madeye",
+    "cost": "90000",
+    "stats": { "M": 6, "F": 4, "AG": "4+", "CP": "3+", "AR": "9+" },
+    "skills": ["Passe", "Précision", "Arme Secrète", "Solitaire (4+)"],
+    "teams": ["Chaos", "Nains du Chaos"],
+    "description": "Zzharg Madeye, le nain du chaos à l'œil fou, manie un canon artisanal avec une précision terrifiante. Ses passes explosives peuvent changer le cours d'un match, mais son arme secrète le met souvent dans le collimateur des arbitres. Les fans adorent son style imprévisible, même si ses coéquipiers redoutent ses 'accidents'.",
+    "image": "images/starplayers/zzharg_madeye.png",
+    "icon": "images/starplayers/icons/zzharg_madeye_icon.png"
+  },
+  {
+    "name": "Grim Ironjaw",
+    "cost": "220000",
+    "stats": { "M": 5, "F": 4, "AG": "3+", "CP": "-", "AR": "8+" },
+    "skills": ["Blocage", "Châtaigne", "Frénésie", "Solitaire (4+)"],
+    "teams": ["Nains"],
+    "description": "Grim Ironjaw, le tueur nain légendaire, est un bulldozer sur le terrain. Sa frénésie et sa force brute en font un expert des blocages destructeurs, capable de renverser les adversaires les plus robustes. Son tempérament belliqueux et sa barbe impeccablement tressée en font une icône des fans nains.",
+    "image": "images/starplayers/grim_ironjaw.png",
+    "icon": "images/starplayers/icons/grim_ironjaw_icon.png"
+  },
+  {
+    "name": "Helmut Wulf",
+    "cost": "110000",
+    "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "-", "AR": "8+" },
+    "skills": ["Tronçonneuse", "Arme Secrète", "Solitaire (4+)"],
+    "teams": ["Amazones", "Humains", "Nordiques"],
+    "description": "Helmut Wulf, armé de sa fidèle tronçonneuse, est un humain imprévisible qui sème la terreur sur le terrain. Sa propension à découper tout ce qui bouge le rend redoutable, mais les arbitres le surveillent de près, prêts à l'expulser. Les foules adorent son style sanguinaire, même si ses coéquipiers préfèrent rester à distance.",
+    "image": "images/starplayers/helmut_wulf.png",
+    "icon": "images/starplayers/icons/helmut_wulf_icon.png"
+  },
+  {
+    "name": "Deeproot Strongbranch",
+    "cost": "280000",
+    "stats": { "M": 4, "F": 7, "AG": "5+", "CP": "5+", "AR": "10+" },
+    "skills": ["Blocage", "Lancer de Coéquipier", "Crâne Épais", "Solitaire (4+)"],
+    "teams": ["Halflings"],
+    "description": "Deeproot Strongbranch, l'homme-arbre des Halflings, est une tour de force immobile. Capable de lancer ses coéquipiers halflings à travers le terrain ou de tenir la ligne comme un rempart, il est l'ancre de toute équipe. Sa sagesse ancienne contraste avec son habitude de s'enraciner au milieu du match pour méditer.",
+    "image": "images/starplayers/deeproot_strongbranch.png",
+    "icon": "images/starplayers/icons/deeproot_strongbranch_icon.png"
+  },
+  {
+    "name": "Kreek Rustgouger",
+    "cost": "170000",
+    "stats": { "M": 5, "F": 5, "AG": "4+", "CP": "-", "AR": "9+" },
+    "skills": ["Boule et Chaîne", "Arracher le Ballon", "Solitaire (4+)"],
+    "teams": ["Skavens", "Underworld Denizens"],
+    "description": "Kreek Rustgouger, le skaven armé d'une boule et chaîne, est une tornade de destruction. Son talent pour arracher le ballon et semer le chaos en fait un atout précieux, mais sa manie de tournoyer sans regarder où il va cause parfois des dégâts collatéraux. Les fans l'appellent 'le Tourbillon Rouillé' pour une bonne raison.",
+    "image": "images/starplayers/kreek_rustgouger.png",
+    "icon": "images/starplayers/icons/kreek_rustgouger_icon.png"
+  },
+  {
+    "name": "Fungus the Loon",
+    "cost": "80000",
+    "stats": { "M": 4, "F": 7, "AG": "3+", "CP": "-", "AR": "7+" },
+    "skills": ["Boule et Chaîne", "Gros Débile", "Solitaire (4+)"],
+    "teams": ["Gobelins"],
+    "description": "Fungus the Loon, le gobelin dément, est une boule de chaos attachée à une chaîne. Sa force surprenante et son comportement erratique en font un danger pour tous, y compris son propre camp. Les rumeurs disent qu'il a oublié comment s'arrêter de tournoyer, ce qui explique ses performances aussi spectaculaires que désastreuses.",
+    "image": "images/starplayers/fungus_the_loon.png",
+    "icon": "images/starplayers/icons/fungus_the_loon_icon.png"
+  },
+  {
+    "name": "Karla von Kill",
+    "cost": "210000",
+    "stats": { "M": 6, "F": 4, "AG": "3+", "CP": "4+", "AR": "8+" },
+    "skills": ["Blocage", "Esquive", "Saut", "Solitaire (4+)"],
+    "teams": ["Amazones", "Humains", "Nordiques"],
+    "description": "Karla von Kill, la guerrière nordique, combine force et agilité pour des blitz audacieux. Capable de sauter par-dessus les défenseurs et de frapper avec précision, elle est une star montante des Nordiques. Son rire tonitruant et son amour pour les duels en font une favorite des foules, mais ses coéquipiers la surveillent pour éviter ses colères.",
+    "image": "images/starplayers/karla_von_kill.png",
+    "icon": "images/starplayers/icons/karla_von_kill_icon.png"
+  },
+  {
+    "name": "Lord Borak the Despoiler",
+    "cost": "260000",
+    "stats": { "M": 5, "F": 5, "AG": "3+", "CP": "5+", "AR": "9+" },
+    "skills": ["Blocage", "Châtaigne", "Joueur Déloyal", "Solitaire (4+)"],
+    "teams": ["Chaos", "Chaos Renegades"],
+    "description": "Lord Borak the Despoiler, champion du Chaos, est une terreur sur le terrain. Ses blocages brutaux et ses coups bas (souvent littéraux) font de lui un adversaire craint. Considéré comme l'un des plus grands joueurs des Dieux Sombres, il se délecte du chaos et des blessures qu'il inflige, souvent avec un sourire sinistre.",
+    "image": "images/starplayers/lord_borak_the_despoiler.png",
+    "icon": "images/starplayers/icons/lord_borak_the_despoiler_icon.png"
+  },
+  {
+    "name": "Scrappa Sorehead",
+    "cost": "130000",
+    "stats": { "M": 7, "F": 2, "AG": "3+", "CP": "5+", "AR": "7+" },
+    "skills": ["Pogo Stick", "Prise Sûre", "Sprint", "Solitaire (4+)"],
+    "teams": ["Gobelins", "Ogres"],
+    "description": "Scrappa Sorehead, le gobelin sur son bâton sauteur, est une flèche verte qui bondit à travers le terrain. Sa vitesse et sa prise sûre en font un porteur de ballon improbable mais efficace. Les fans adorent ses sauts spectaculaires, même s'il atterrit souvent dans les gradins ou sur un adversaire furieux.",
+    "image": "images/starplayers/scrappa_sorehead.png",
+    "icon": "images/starplayers/icons/scrappa_sorehead_icon.png"
+  },
+  {
+    "name": "Skitter Stab-Stab",
+    "cost": "160000",
+    "stats": { "M": 7, "F": 2, "AG": "2+", "CP": "4+", "AR": "7+" },
+    "skills": ["Poignard", "Esquive", "Solitaire (4+)"],
+    "teams": ["Skavens", "Underworld Denizens"],
+    "description": "Skitter Stab-Stab, l'assassin skaven, est un maître des coups rapides et discrets. Armé de lames empoisonnées, il esquive les défenseurs pour frapper là où ça fait mal. Sa discrétion et son rire sifflant en font une figure terrifiante, même pour ses propres coéquipiers, qui vérifient toujours leurs poches après un match.",
+    "image": "images/starplayers/skitter_stab_stab.png",
+    "icon": "images/starplayers/icons/skitter_stab_stab_icon.png"
+  },
+  {
+    "name": "Estelle la Veneaux",
+    "cost": "200000",
+    "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "3+", "AR": "8+" },
+    "skills": ["Esquive", "Blocage", "Regard Hypnotique", "Solitaire (4+)"],
+    "teams": ["Amazones"],
+    "description": "Estelle la Veneaux, surnommée la Baronne du Bayou, est une Amazone mystérieuse entourée de rumeurs. Certains la disent incarnation de la déesse Rigg, d'autres une folle couverte de grenouilles. Son regard hypnotique paralyse les adversaires, et son agilité lui permet de danser à travers le terrain, laissant une traînée de chaos mystique.",
+    "image": "images/starplayers/estelle_la_veneaux.png",
+    "icon": "images/starplayers/icons/estelle_la_veneaux_icon.png"
+  },
+  {
+    "name": "Glotl Stop",
+    "cost": "270000",
+    "stats": { "M": 6, "F": 5, "AG": "4+", "CP": "-", "AR": "9+" },
+    "skills": ["Blocage", "Griffes", "Frénésie", "Solitaire (4+)"],
+    "teams": ["Amazones", "Lézards"],
+    "description": "Glotl Stop, le Kroxigor surnommé le Cauchemar Primordial, est une force brute reptilienne. Ses griffes acérées et sa frénésie font de lui un bloqueur terrifiant, capable de déchiqueter les défenses. Les fans l'appellent le 'Slasher Écaillé', et son rugissement fait trembler même les gradins les plus bruyants.",
+    "image": "images/starplayers/glotl_stop.png",
+    "icon": "images/starplayers/icons/glotl_stop_icon.png"
+  },
+  {
+    "name": "Boa Kon'ssstriktr",
+    "cost": "190000",
+    "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" },
+    "skills": ["Esquive", "Regard Hypnotique", "Queue Préhenstile", "Solitaire (4+)"],
+    "teams": ["Amazones", "Lézards"],
+    "description": "Boa Kon'ssstriktr, le 'Serpent Intrigant', est un Snakeman hypnotique qui sème la confusion avec son regard perçant et sa queue préhensile. Sa capacité à faire trébucher les adversaires en fait un atout pour perturber les stratégies ennemies. Les rumeurs disent qu'il murmure des secrets anciens avant chaque match.",
+    "image": "images/starplayers/boa_konsstriktr.png",
+    "icon": "images/starplayers/icons/boa_konsstriktr_icon.png"
+  },
+  {
+    "name": "Count Luthor von Drakenborg",
+    "cost": "340000",
+    "stats": { "M": 6, "F": 5, "AG": "2+", "CP": "4+", "AR": "9+" },
+    "skills": ["Blocage", "Regard Hypnotique", "Régénération", "Solitaire (4+)"],
+    "teams": ["Vampires", "Nécromantiques"],
+    "description": "Count Luthor von Drakenborg, le 'Comte de la Classe', est un vampire charismatique dont le regard hypnotique immobilise ses proies. Sa force et sa régénération en font un adversaire redoutable, capable de revenir d'un coup fatal pour marquer un touchdown. Les fans l'adorent pour son style aristocratique et son sourire narquois.",
+    "image": "images/starplayers/count_luthor_von_drakenborg.png",
+    "icon": "images/starplayers/icons/count_luthor_von_drakenborg_icon.png"
+  },
+  {
+    "name": "Ivan 'The Animal' Deathshroud",
+    "cost": "230000",
+    "stats": { "M": 6, "F": 4, "AG": "3+", "CP": "-", "AR": "8+" },
+    "skills": ["Blocage", "Frénésie", "Tacle", "Solitaire (4+)"],
+    "teams": ["Vampires", "Nécromantiques"],
+    "description": "Ivan 'The Animal' Deathshroud, le blitzer squelettique, est un vampire assoiffé de vengeance contre les Nains. Sa frénésie et son tacle précis en font un chasseur implacable sur le terrain. Son surnom vient de son hurlement sauvage avant chaque blocage, qui glace le sang des adversaires.",
+    "image": "images/starplayers/ivan_the_animal_deathshroud.png",
+    "icon": "images/starplayers/icons/ivan_the_animal_deathshroud_icon.png"
+  },
+  {
+    "name": "Captain Karina von Riesz",
+    "cost": "220000",
+    "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "3+", "AR": "8+" },
+    "skills": ["Esquive", "Passe", "Prise Sûre", "Solitaire (4+)"],
+    "teams": ["Vampires", "Nécromantiques"],
+    "description": "‘Captain’ Karina von Riesz, la 'Fléau de Sartosa', est une vampire coureur dont la vitesse et la précision en font une menace pour les défenses. Sa grâce mortelle et son passé de pirate lui donnent une aura de mystère. Elle préfère marquer des touchdowns plutôt que de boire le sang de ses adversaires... la plupart du temps.",
+    "image": "images/starplayers/karina_von_riesz.png",
+    "icon": "images/starplayers/icons/karina_von_riesz_icon.png"
+  },
+  {
+    "name": "Rodney Roachbait",
+    "cost": "150000",
+    "stats": { "M": 7, "F": 2, "AG": "3+", "CP": "4+", "AR": "7+" },
+    "skills": ["Esquive", "Passe", "Pêcheur de Ballon", "Solitaire (4+)"],
+    "teams": ["Gnomes"],
+    "description": "Rodney Roachbait, le gnome astucieux, utilise sa canne à pêche pour attraper le ballon à distance (sur un 3+). Sa petite taille et son agilité le rendent difficile à attraper, mais sa manie de taquiner ses adversaires avec des blagues sur les insectes peut lui attirer des ennuis. Les fans adorent son audace.",
+    "image": "images/starplayers/rodney_roachbait.png",
+    "icon": "images/starplayers/icons/rodney_roachbait_icon.png"
+  },
+  {
+    "name": "Rowana Forestfoot",
+    "cost": "180000",
+    "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "-", "AR": "8+" },
+    "skills": ["Blocage", "Garde", "Cornes", "Saut Bondissant", "Solitaire (4+)"],
+    "teams": ["Gnomes"],
+    "description": "Rowana Forestfoot, la blitzer gnome, est plus robuste que ses congénères grâce à sa force et ses cornes. Son saut bondissant (une fois par match, sans malus) lui permet de surprendre les adversaires. Charismatique et courageuse, elle est une étoile montante des équipes gnomes, adorée pour son panache.",
+    "image": "images/starplayers/rowana_forestfoot.png",
+    "icon": "images/starplayers/icons/rowana_forestfoot_icon.png"
+  },
+  {
+    "name": "Akhorne the Squirrel",
+    "cost": "100000",
+    "stats": { "M": 7, "F": 1, "AG": "2+", "CP": "-", "AR": "6+" },
+    "skills": ["Esquive", "Saut de Côté", "Sprint", "Solitaire (4+)"],
+    "teams": ["Gnomes", "Elfes Sylvains"],
+    "description": "Akhorne the Squirrel, l'écureuil frénétique, est une boule d'énergie qui traverse le terrain à une vitesse folle. Sa petite taille et son agilité le rendent presque intouchable, mais son attention limitée (il est souvent distrait par des glands) peut poser problème. Les fans l'adorent pour ses cabrioles hilarantes.",
+    "image": "images/starplayers/akhorne_the_squirrel.png",
+    "icon": "images/starplayers/icons/akhorne_the_squirrel_icon.png"
+  },
+  {
+    "name": "Gobbler Grimlich",
+    "cost": "200000",
+    "stats": { "M": 5, "F": 5, "AG": "3+", "CP": "-", "AR": "9+" },
+    "skills": ["Blocage", "Griffes", "Régénération", "Solitaire (4+)"],
+    "teams": ["Chaos Chosen", "Chaos Renegades", "Underworld Denizens"],
+    "description": "Gobbler Grimlich, le crapaud mutant des Chaos Chosen, est une créature monstrueuse dont les griffes et la régénération en font un bloqueur redoutable. Sa capacité à avaler (presque littéralement) ses adversaires terrifie les foules. Les rumeurs disent qu'il a un appétit insatiable pour les ballons... et les joueurs.",
+    "image": "images/starplayers/gobbler_grimlich.png",
+    "icon": "images/starplayers/icons/gobbler_grimlich_icon.png"
+  },
+  {
+    "name": "Scylla Anfingrimm",
+    "cost": "250000",
+    "stats": { "M": 6, "F": 5, "AG": "3+", "CP": "-", "AR": "9+" },
+    "skills": ["Blocage", "Frénésie", "Châtaigne", "Solitaire (4+)"],
+    "teams": ["Chaos Chosen", "Nordiques"],
+    "description": "Scylla Anfingrimm, champion de Khorne, est un guerrier féroce dont la frénésie et la force brute écrasent tout sur son passage. Sa dévotion au dieu du sang le pousse à des blocages implacables, souvent au prix de la stratégie d'équipe. Les fans le vénèrent pour sa violence pure et son cri de guerre tonitruant.",
+    "image": "images/starplayers/scylla_anfingrimm.png",
+    "icon": "images/starplayers/icons/scylla_anfingrimm_icon.png"
+  }
+]

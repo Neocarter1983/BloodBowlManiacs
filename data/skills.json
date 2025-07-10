@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Arracher le Ballon",
+    "category": "Générales",
+    "description": "Le défenseur repoussé lors d’un Blocage (même lors d’un Blitz) lâche la balle s’il la possédait (même s’il a Stabilité). Elle rebondit à partir de la case où il est repoussé."
+  },
+  {
+    "name": "Blocage",
+    "category": "Générales",
+    "description": "Peut ignorer le résultat 'Les Deux Plaqués' lors d’un Blocage."
+  },
+  {
+    "name": "Frappe Précise",
+    "category": "Générales",
+    "description": "Dé du Coup d’Envoi/2 arrondi à l’inférieur (1=0 case, 2-3=1, 4-5=2, 6=3) si ce joueur effectue le Coup d’Envoi."
+  },
+  {
+    "name": "Frénésie",
+    "category": "Générales",
+    "description": "Si le Défenseur est repoussé lors d’un Blocage, l’Attaquant doit poursuivre (si encore possible) avec un autre Blocage contre la même cible."
+  },
+  {
+    "name": "Sur le Ballon",
+    "category": "Générales",
+    "description": "Permet de bouger de 3 cases max (sans tenir compte du M, mais avec les règles de déplacement) lorsque le coach adverse annonce une action de Passe et qu’il a déterminé la case cible."
+  },
+  {
+    "name": "Intrépidité",
+    "category": "Générales",
+    "description": "Sur un Blocage, ignore la différence de F (et modificateurs) si défavorable. Lance 1D6, sur 2+ OK, sur 1, F-1 pour ce Blocage."
+  },
+  {
+    "name": "Joueur Déloyal (+1)",
+    "category": "Générales",
+    "description": "Sur une Agression, +1 au jet de BL ou d’AR. Sur 1, le joueur est expulsé."
+  },
+  {
+    "name": "Nerfs d’Acier",
+    "category": "Générales",
+    "description": "Ignore les modificateurs dus au 'Marquage' pour Réceptionner, Interférer ou Ramasser la balle."
+  },
+  {
+    "name": "Poursuite",
+    "category": "Générales",
+    "description": "Si l’adversaire tente de s’éloigner, peut suivre (max 1 case) pour rester à son contact (sauf si Repoussé ou Plaqués)."
+  },
+  {
+    "name": "Prise Sûre",
+    "category": "Générales",
+    "description": "Relance lors d’un échec pour Ramasser le ballon."
+  },
+  {
+    "name": "Défenseur",
+    "category": "Agilité",
+    "description": "Durant tour adverse, les adversaires 'Marqués' ne peuvent utiliser Garde."
+  },
+  {
+    "name": "Équilibre",
+    "category": "Agilité",
+    "description": "Relance lors d’un échec pour 'Foncer' durant le tour d’équipe."
+  },
+  {
+    "name": "Esquive",
+    "category": "Agilité",
+    "description": "Relance, 1 fois par tour d’équipe, d’une Esquive ratée. Influence le Blocage."
+  },
+  {
+    "name": "Glissade Contrôlée",
+    "category": "Agilité",
+    "description": "Le coach de ce joueur choisit la case en cas de Repoussé (doit être inoccupée et adjacente) sauf si aucune n’est disponible."
+  },
+  {
+    "name": "Libération Contrôlée",
+    "category": "Agilité",
+    "description": "Si 'Plaqué' ou 'Mis à Terre' (pas sur 'Chute') et en possession du ballon, le ballon ne rebondit pas et reste sur la case."
+  },
+  {
+    "name": "Passe dans l’Ombre",
+    "category": "Agilité",
+    "description": "Sur une action de Passe, peut choisir un coéquipier dans un rayon de 3 cases autour de la case cible pour tenter de Réceptionner (même si hors de portée de la passe)."
+  },
+  {
+    "name": "Saut",
+    "category": "Agilité",
+    "description": "1 fois par tour d’équipe, sur une action de Blitz, peut tenter un Saut (2 cases max, test d’AG, -1 par Zone de Tacle ennemie)."
+  },
+  {
+    "name": "Sprint",
+    "category": "Agilité",
+    "description": "+1 case (max 3) pour 'Foncer'."
+  },
+  {
+    "name": "Châtaigne (+1)",
+    "category": "Force",
+    "description": "+1 aux jets d’AR ou de BL lorsqu’un adversaire est 'Mis à Terre' suite à un Blocage."
+  },
+  {
+    "name": "Garde",
+    "category": "Force",
+    "description": "Donne une assistance offensive ou défensive même si 'Marqué'."
+  },
+  {
+    "name": "Projection",
+    "category": "Force",
+    "description": "Le joueur choisit la case de Repoussé parmi les disponibles lors d’un Blocage (pas lors d’un Blitz) ayant un résultat 'Repoussé'."
+  },
+  {
+    "name": "Stabilité",
+    "category": "Force",
+    "description": "Peut choisir d’être 'Plaqué' sur sa case et d’ignorer les 'Repoussées' (même en chaîne)."
+  },
+  {
+    "name": "Bras Musclé",
+    "category": "Force",
+    "description": "+1 sur jet de Lancer de Coéquipier."
+  },
+  {
+    "name": "Attrape",
+    "category": "Force",
+    "description": "Lors d’un Blocage, si le résultat est 'Repoussé', peut choisir de ne pas repousser l’adversaire (il reste sur place)."
+  },
+  {
+    "name": "Casseur",
+    "category": "Force",
+    "description": "Sur un résultat de 'Défenseur à Terre', peut relancer 1D6 du jet de BL ou d’AR."
+  },
+  {
+    "name": "Passe",
+    "category": "Passe",
+    "description": "Relance lors d’un échec pour une Passe."
+  },
+  {
+    "name": "Précision",
+    "category": "Passe",
+    "description": "+1 en CP sur les Passes Rapides ou Courtes."
+  },
+  {
+    "name": "Leader",
+    "category": "Passe",
+    "description": "Donne 1 Relance d’équipe supplémentaire par match si le joueur est sur le terrain (non KO ou blessé)."
+  },
+  {
+    "name": "Passe Rapide",
+    "category": "Passe",
+    "description": "Permet une Passe Rapide (1 case) comme Action Gratuite, 1 fois par tour d’équipe, même après un Mouvement."
+  },
+  {
+    "name": "Bras Supplémentaires",
+    "category": "Mutations",
+    "description": "+1 pour Réceptionner, pour Interférer avec une Passe ou Ramasser le ballon."
+  },
+  {
+    "name": "Cornes",
+    "category": "Mutations",
+    "description": "+1 en F sur tous les Blocages lors d’un Blitz (avant tout autre modificateur)."
+  },
+  {
+    "name": "Deux Têtes",
+    "category": "Mutations",
+    "description": "+1 aux jets d’AG pour les Esquives."
+  },
+  {
+    "name": "Grande Gueule",
+    "category": "Mutations",
+    "description": "Relance lors d’un échec pour Réceptionner et annule Arracher le Ballon."
+  },
+  {
+    "name": "Main Démesurée",
+    "category": "Mutations",
+    "description": "Ignore les modificateurs dus au 'Marquage' ainsi qu’à la Pluie Battante (et Averse) en météo, quand il tente de Ramasser le ballon."
+  },
+  {
+    "name": "Queue Préhensile",
+    "category": "Mutations",
+    "description": "Les adversaires subissent -1 aux jets d’AG pour Esquiver ou Sauter hors de la Zone de Tacle."
+  },
+  {
+    "name": "Animosité",
+    "category": "Traits",
+    "description": "Sur une action de Passe ou Transmission à certains coéquipiers (voir description de l’équipe), doit réussir un jet de 2+ (1D6) sinon l’action échoue."
+  },
+  {
+    "name": "Arme Secrète",
+    "category": "Traits",
+    "description": "À la fin de chaque Drive où le joueur était sur le terrain, il est expulsé sur 2+ (1D6)."
+  },
+  {
+    "name": "Bombardier",
+    "category": "Traits",
+    "description": "Peut lancer une Bombe au lieu d’une Passe (Portée Courte max, test de CP, Interception possible, explose sur échec ou 4+ si réceptionnée)."
+  },
+  {
+    "name": "Contagieux",
+    "category": "Traits",
+    "description": "1 joueur adverse tué sur Blocage ou Agression (1 fois par match) peut être intégré dans l’équipe en tant que Rotter Lineman."
+  },
+  {
+    "name": "Crâne Épais",
+    "category": "Traits",
+    "description": "Sur un résultat 'Sonné', peut relancer pour tenter d’obtenir 'Hébété'."
+  },
+  {
+    "name": "Décomposition",
+    "category": "Traits",
+    "description": "Sur un jet de Blessure de 10+ (après modificateurs), le joueur subit une Blessure Persistante."
+  },
+  {
+    "name": "Déferlement",
+    "category": "Traits",
+    "description": "Après avoir Ramassé le ballon, peut se déplacer jusqu’à sa case initiale si elle est libre."
+  },
+  {
+    "name": "Échasse à Ressort",
+    "category": "Traits",
+    "description": "Sur un Blitz ou Mouvement, peut tenter un Saut (2 cases max, test d’AG, -1 par Zone de Tacle ennemie)."
+  },
+  {
+    "name": "Gerbe de Vomi",
+    "category": "Traits",
+    "description": "Au lieu d’un Blocage, peut tenter un Vomi (test de CP, si raté, TO; si réussi, Défenseur est Plaquée)."
+  },
+  {
+    "name": "Gros Débile",
+    "category": "Traits",
+    "description": "Avant toute action, lance 1D6. Sur 1-3, TO sauf si un coéquipier adjacent Debout a M>2."
+  },
+  {
+    "name": "Hypnose",
+    "category": "Traits",
+    "description": "1 fois par tour, peut tenter d’hypnotiser un adversaire à 3 cases max (test d’AG, -1 par Zone de Tacle ennemie). Si réussi, l’adversaire perd sa Zone de Tacle jusqu’au début du prochain tour du joueur."
+  },
+  {
+    "name": "Lancer de Coéquipier",
+    "category": "Traits",
+    "description": "Peut lancer un coéquipier avec Poids Plume dans une case libre à portée Courte (test de CP, modificateurs selon distance)."
+  },
+  {
+    "name": "Microbe",
+    "category": "Traits",
+    "description": "Les adversaires en contact doivent relancer les jets d’AG réussis pour Esquiver ou Sauter."
+  },
+  {
+    "name": "Minus",
+    "category": "Traits",
+    "description": "-1 pour Interférer ou Réceptionner. +1 à la Zone de Tacle ennemie pour Esquiver ou Sauter."
+  },
+  {
+    "name": "Peau de Fer",
+    "category": "Traits",
+    "description": "Ignore les résultats 'Sonné' sur les jets de Blessure."
+  },
+  {
+    "name": "Poids Plume",
+    "category": "Traits",
+    "description": "Peut être lancé par un joueur avec Lancer de Coéquipier. -1 à la Zone de Tacle ennemie pour Esquiver ou Sauter."
+  },
+  {
+    "name": "Présence Perturbante",
+    "category": "Traits",
+    "description": "Chaque joueur adverse à 3 cases ou moins subit -1 pour Réceptionner, Interférer ou Ramasser la balle."
+  },
+  {
+    "name": "Régénération",
+    "category": "Traits",
+    "description": "Après avoir subi une ÉLI, peut jeter 1D6. Sur 4+, le joueur va en Réserves. Pas de relance."
+  },
+  {
+    "name": "Répulsion",
+    "category": "Traits",
+    "description": "Les adversaires doivent réussir un jet de F (6+) pour effectuer un Blocage contre ce joueur."
+  },
+  {
+    "name": "Sans les Mains",
+    "category": "Traits",
+    "description": "Ne peut Ramasser, Réceptionner ou Interférer avec une Passe. S’il entre dans une case où se trouve la balle, il y a TO."
+  },
+  {
+    "name": "Sauvagerie Animale",
+    "category": "Traits",
+    "description": "Avant toute action, lance 1D6. Sur 1-3, 1 coéquipier adjacent Debout est 'Plaqué' (TO s’il possède la balle)."
+  },
+  {
+    "name": "Soif de Sang",
+    "category": "Traits",
+    "description": "Après chaque action (sauf Mouvement simple), lance 1D6. Sur 1, doit mordre un Thrall adjacent (test de BL, sinon TO)."
+  },
+  {
+    "name": "Solitaire (X+)",
+    "category": "Traits",
+    "description": "Pour utiliser une Relance d’équipe, doit réussir un jet de X+ (4+ sauf indication contraire)."
+  },
+  {
+    "name": "Tentacules",
+    "category": "Traits",
+    "description": "Les adversaires doivent réussir un jet de F (6+) pour quitter la Zone de Tacle de ce joueur."
+  },
+  {
+    "name": "Toujours Affamé",
+    "category": "Traits",
+    "description": "Sur un Lancer de Coéquipier, lance 1D6. Sur 1, le coéquipier est dévoré (Blessure sur 10+)."
+  },
+  {
+    "name": "Prendre Racine",
+    "category": "Traits",
+    "description": "Avant tout Mouvement ou Blitz, lance 1D6. Sur 1, TO et le joueur est enraciné (ne peut plus bouger)."
+  },
+  {
+    "name": "Vraiment Très Gros",
+    "category": "Traits",
+    "description": "Ne peut être Repoussé que par un joueur avec F au moins égale."
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Création d'Équipe",
+    "description": "Les coachs disposent d'un budget (généralement 1 000 000 po) pour recruter des joueurs, acheter des relances, un apothicaire, des cheerleaders, des assistants, et des inducements (ex. : sorciers, pots-de-vin). Chaque équipe doit respecter les limites de composition (ex. : 0-16 Linemen, 0-2 Blitzers). Les relances coûtent entre 50 000 et 70 000 po selon l'équipe. Les règles spéciales (ex. : Classique du Vieux Monde) influencent les options disponibles."
+  },
+  {
+    "title": "Tour de Jeu",
+    "description": "Un match est divisé en deux mi-temps de 8 tours chacune. Chaque tour, un coach active tous ses joueurs (sauf ceux KO, blessés, ou expulsés). Les joueurs peuvent effectuer une action par tour : Mouvement, Blocage, Blitz, Passe, Transmission, Agression, ou Lancer de Coéquipier. Un turnover (TO) met fin au tour du coach si une action échoue (ex. : échec d'AG, chute, passe ratée). Les joueurs KO en Réserves peuvent revenir au début d'un Drive sur un jet de 4+."
+  },
+  {
+    "title": "Mouvement",
+    "description": "Un joueur peut se déplacer jusqu'à son M (Mouvement). 'Foncer' permet de gagner jusqu'à 2 cases supplémentaires (3 avec Sprint), mais nécessite un jet d'AG par case (échec = chute, TO). Les Zones de Tacle ennemies imposent un jet d'Esquive (AG, -1 par Zone de Tacle). Un joueur debout peut se relever pour 3 M."
+  },
+  {
+    "title": "Zone de Tacle",
+    "description": "Chaque joueur debout exerce une Zone de Tacle sur les 8 cases adjacentes. Cela affecte les jets d'Esquive (-1 par Zone de Tacle), de Passe, de Réception, et d'Interférence (-1 par Zone de Tacle ennemie). Les compétences comme Présence Perturbante ou Tentacules modifient ces effets."
+  },
+  {
+    "title": "Blocage",
+    "description": "Un joueur peut effectuer un Blocage contre un adversaire adjacent. Lancez 1 à 3 dés de Blocage selon la différence de F (Force). Résultats possibles : Attaquant à Terre (!), Les Deux Plaqués (↕), Repoussé (↔), Défenseur à Terre (↓), Défenseur Sonné (☻). Après un Repoussé, le joueur peut être poussé dans une case adjacente, suivie d'un jet d'Armure (AR) ou de Blessure (BL) si l'AR est brisée."
+  },
+  {
+    "title": "Blitz",
+    "description": "Une action de Blitz combine Mouvement et un Blocage unique dans le même tour. Le joueur peut se déplacer avant ou après le Blocage, mais ne peut pas effectuer deux Blocages. Les compétences comme Frénésie obligent à poursuivre un Repoussé avec un autre Blocage si possible."
+  },
+  {
+    "title": "Passe",
+    "description": "Une action de Passe permet de lancer le ballon à une case cible. Types de passes : Rapide (1-3 cases), Courte (4-6 cases), Longue (7-9 cases), Bombe Longue (10+ cases). Test de CP (Compétence de Passe) avec modificateurs : +1 (Rapide), 0 (Courte), -1 (Longue), -2 (Bombe Longue), -1 par Zone de Tacle ennemie. Échec = TO, le ballon rebondit."
+  },
+  {
+    "title": "Réception",
+    "description": "Un joueur ciblé par une Passe doit réussir un jet d'AG pour Réceptionner (+1 si Passe Rapide, 0 si Courte, -1 si Longue, -2 si Bombe Longue, -1 par Zone de Tacle ennemie). Échec = TO, le ballon rebondit. Les compétences comme Réception ou Nerfs d’Acier modifient ce jet."
+  },
+  {
+    "title": "Interférence",
+    "description": "Un joueur dans la trajectoire d'une Passe peut tenter d'interférer (jet d'AG, -2, -1 par Zone de Tacle ennemie). Succès = le ballon est intercepté, TO pour l'équipe adverse. Échec = la Passe continue."
+  },
+  {
+    "title": "Ramasser le Ballon",
+    "description": "Un joueur dans la case du ballon peut tenter de le ramasser (jet d'AG, +1, -1 par Zone de Tacle ennemie). Succès = le joueur tient le ballon. Échec = TO, le ballon rebondit. Les compétences comme Prise Sûre permettent une relance."
+  },
+  {
+    "title": "Agression",
+    "description": "Un joueur peut effectuer une Agression contre un adversaire à terre adjacent (jet d'AR, +1 si Joueur Déloyal). Résultat : 2-7 = rien, 8-9 = Sonné, 10-11 = KO, 12+ = ÉLI (Élimination). Un jet de 1 sur l'Agression entraîne l'expulsion du joueur."
+  },
+  {
+    "title": "Lancer de Coéquipier",
+    "description": "Un joueur avec la compétence Lancer de Coéquipier peut lancer un coéquipier avec Poids Plume vers une case cible. Jet de CP (modificateurs : -1 par Zone de Tacle ennemie). Succès = le coéquipier est lancé, suivi d'un jet d'atterrissage (AG, -1 par Zone de Tacle). Échec du lancer ou de l'atterrissage = TO, le coéquipier est à terre, possible jet de Blessure."
+  },
+  {
+    "title": "Jets d'Armure",
+    "description": "Après un Défenseur à Terre (Blocage/Blitz) ou une Agression, lancez 2D6 contre l'AR (Armure) du joueur ciblé. Si le résultat dépasse l'AR, effectuez un jet de Blessure. Les compétences comme Griffes ou Châtaigne (+1) modifient le jet d'AR."
+  },
+  {
+    "title": "Tableau Météo",
+    "description": "Au début du match, lancez 2D6 pour déterminer la météo : <table><thead><tr><th>2D6</th><th>Météo</th><th>Effet</th></tr></thead><tbody><tr><td>2</td><td>Canicule</td><td>À la fin de chaque mi-temps, chaque joueur sur le terrain lance 1D6 : 1 = KO.</td></tr><tr><td>3</td><td>Pluie Battante</td><td>-1 pour Ramasser et Réceptionner.</td></tr><tr><td>4-10</td><td>Beau Temps</td><td>Aucun effet.</td></tr><tr><td>11</td><td>Averse</td><td>-1 pour Ramasser, Réceptionner, et Passe.</td></tr><tr><td>12</td><td>Blizzard</td><td>-1 pour Foncer, jet d'AG pour tout Mouvement (échec = TO).</td></tr></tbody></table>"
+  },
+  {
+    "title": "Blessures",
+    "description": "Après un jet d'Armure réussi, lancez 2D6 pour le jet de Blessure : 2-7 = Sonné (le joueur reste à terre), 8-9 = KO (le joueur va en Réserves, peut revenir sur 4+ au début du Drive), 10+ = ÉLI (Élimination, hors jeu pour le match). Les compétences comme Régénération ou Crâne Épais peuvent modifier ces résultats."
+  },
+  {
+    "title": "Relances",
+    "description": "Chaque équipe dispose de relances (limitées par match, coût variant par équipe). Une relance peut être utilisée pour relancer un jet raté (AG, CP, BL, etc.), sauf si interdit (ex. : Régénération). Les compétences comme Solitaire imposent un jet préalable pour utiliser une relance d'équipe."
+  },
+  {
+    "title": "Coup d'Envoi",
+    "description": "Avant chaque Drive, l'équipe qui reçoit effectue un Coup d'Envoi. Lancez 2D6 sur le tableau des Coups d'Envoi : <table><thead><tr><th>2D6</th><th>Résultat</th><th>Effet</th></tr></thead><tbody><tr><td>2</td><td>Attrapez !</td><td>Chaque coach peut déplacer 1 joueur jusqu'à 3 cases (pas dans une Zone de Tacle).</td></tr><tr><td>3</td><td>Changement de Météo</td><td>Relancez sur le tableau Météo.</td></tr><tr><td>4</td><td>Public Acclamant</td><td>L'équipe avec le plus de spectateurs gagne +1 relance pour ce Drive.</td></tr><tr><td>5</td><td>Défense Parfaite</td><td>L'équipe en défense peut réorganiser ses joueurs.</td></tr><tr><td>6</td><td>Blitz !</td><td>L'équipe en défense agit en premier (Blitz limité).</td></tr><tr><td>7</td><td>Joli Coup</td><td>La balle dévie de 1D6 cases dans une direction aléatoire.</td></tr><tr><td>8</td><td>Officiels Corrompus</td><td>Ignorez la prochaine expulsion pour Agression ou Arme Secrète.</td></tr><tr><td>9</td><td>Public Énervé</td><td>Chaque coach lance 1D6 : sur 1, un joueur aléatoire est Sonné.</td></tr><tr><td>10</td><td>Invasion du Terrain</td><td>Chaque joueur sur le terrain lance 1D6 : 1 = Sonné.</td></tr><tr><td>11</td><td>Passe Rapide</td><td>L'équipe qui reçoit peut effectuer une Passe Rapide gratuite.</td></tr><tr><td>12</td><td>Jet Imprécis</td><td>La balle dévie de 2D6 cases dans une direction aléatoire.</td></tr></tbody></table>"
+  },
+  {
+    "title": "Règles Spéciales",
+    "description": "Certaines compétences imposent des règles spécifiques : <ul><li><strong>Animosité</strong> : Le joueur doit réussir un jet de 2+ pour passer ou transmettre à un coéquipier d'une autre race.</li><li><strong>Sauvagerie Animale</strong> : Jet de 4+ avant chaque action, sinon perte d'action et possible Blessure.</li><li><strong>Toujours Affamé</strong> : Jet de 2+ pour lancer un coéquipier, sinon tentative de le manger (jet de Blessure).</li><li><strong>Arme Secrète</strong> : Le joueur est expulsé après son action si un Drive se termine.</li><li><strong>Gros Débile</strong> : Jet de 4+ avant chaque action, sinon perte d'action.</li></ul>"
+  },
+  {
+    "title": "Progression des Joueurs",
+    "description": "En ligue, les joueurs gagnent des Points d'Expérience (SPP) : 1 SPP par passe réussie ou transmission, 2 SPP par blessure infligée, 3 SPP par touchdown, 5 SPP pour MVP. À certains seuils (ex. : 6, 16, 31 SPP), ils peuvent gagner une compétence (primaire ou aléatoire secondaire) ou améliorer une stat (ex. : +1 M, F, AG, AR). Les coûts varient selon la catégorie de l'équipe."
+  },
+  {
+    "title": "Inducements",
+    "description": "Si une équipe a moins de valeur (TV) que son adversaire, elle peut dépenser la différence pour des inducements : <ul><li><strong>Pots-de-vin</strong> (100 000 po) : Ignore une expulsion (jet de 2+).</li><li><strong>Sorcier</strong> (150 000 po) : Lance un sort (éclair ou boule de feu) une fois par match.</li><li><strong>Mercenaires</strong> (coût variable) : Joueurs temporaires avec compétences optionnelles.</li><li><strong>Stars</strong> (coût élevé) : Joueurs célèbres avec stats et compétences uniques.</li></ul>"
+  },
+  {
+    "title": "Gestion de Ligue",
+    "description": "En mode ligue, les équipes évoluent sur plusieurs matchs. Après chaque match, les coachs gèrent les blessures, les SPP, les achats, et les inducements. Les matchs sont organisés en saisons, avec des classements basés sur les victoires (2 pts), nuls (1 pt), et défaites (0 pt). Les équipes peuvent dépenser leur trésorerie pour améliorer leur roster ou acheter des inducements."
+  }
+]

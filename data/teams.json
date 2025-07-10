@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Alliance du Vieux Monde",
+    "description": "Une coalition d'équipes humaines, naines et halflings, jouant un style équilibré et robuste.",
+    "category": 2,
+    "rerolls": "50 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Classique du Vieux Monde, Super-ligue du Bord du Monde",
+    "players": [
+      { "type": "Human Linemen", "qty": "0-12", "cost": "50 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "9+" }, "skills": [], "primary": "G", "secondary": "AF" },
+      { "type": "Human Thrower", "qty": "0-1", "cost": "80 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "2+", "AR": "9+" }, "skills": ["Passe", "Prise Sûre"], "primary": "GP", "secondary": "AF" },
+      { "type": "Human Catcher", "qty": "0-2", "cost": "65 k", "stats": { "M": 8, "F": 2, "AG": "3+", "CP": "5+", "AR": "8+" }, "skills": ["Réception", "Esquive"], "primary": "GA", "secondary": "FP" },
+      { "type": "Human Blitzer", "qty": "0-4", "cost": "85 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "4+", "AR": "9+" }, "skills": ["Blocage"], "primary": "GF", "secondary": "AP" },
+      { "type": "Dwarf Blocker", "qty": "0-2", "cost": "75 k", "stats": { "M": 4, "F": 3, "AG": "4+", "CP": "5+", "AR": "10+" }, "skills": ["Blocage", "Crâne Épais", "Peau de Fer"], "primary": "GF", "secondary": "A" },
+      { "type": "Dwarf Runner", "qty": "0-1", "cost": "85 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "3+", "AR": "9+" }, "skills": ["Prise Sûre", "Crâne Épais"], "primary": "GP", "secondary": "AF" },
+      { "type": "Dwarf Blitzer", "qty": "0-1", "cost": "80 k", "stats": { "M": 5, "F": 3, "AG": "3+", "CP": "4+", "AR": "10+" }, "skills": ["Blocage", "Crâne Épais"], "primary": "GF", "secondary": "AP" },
+      { "type": "Halfling Hopeful", "qty": "0-3", "cost": "30 k", "stats": { "M": 5, "F": 2, "AG": "3+", "CP": "4+", "AR": "7+" }, "skills": ["Esquive", "Poids Plume", "Minus"], "primary": "A", "secondary": "GF" },
+      { "type": "Ogre", "qty": "0-1", "cost": "140 k", "stats": { "M": 5, "F": 5, "AG": "4+", "CP": "5+", "AR": "10+" }, "skills": ["Solitaire (4+)", "Châtaigne (+1)", "Crâne Épais", "Gros Débile", "Lancer de Coéquipier"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Bas-Fonds",
+    "description": "Une alliance chaotique de goblins, skavens et trolls, spécialisée dans les tactiques sournoises.",
+    "category": 2,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Défi des Bas-Fonds",
+    "players": [
+      { "type": "Underworld Goblin Linemen", "qty": "0-12", "cost": "40 k", "stats": { "M": 6, "F": 2, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Esquive", "Poids Plume", "Minus"], "primary": "AM", "secondary": "GF" },
+      { "type": "Underworld Snotlings", "qty": "0-6", "cost": "15 k", "stats": { "M": 5, "F": 1, "AG": "3+", "CP": "5+", "AR": "6+" }, "skills": ["Esquive", "Poids Plume", "Minus", "Glissade Contrôlée", "Microbe"], "primary": "AM", "secondary": "G" },
+      { "type": "Skaven Clanrat", "qty": "0-3", "cost": "50 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Animosité (Underworld Goblin Linemen)"], "primary": "GM", "secondary": "AF" },
+      { "type": "Skaven Thrower", "qty": "0-1", "cost": "85 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "3+", "AR": "8+" }, "skills": ["Animosité (Underworld Goblin Linemen)", "Passe", "Prise Sûre"], "primary": "GMP", "secondary": "AF" },
+      { "type": "Skaven Gutter Runner", "qty": "0-2", "cost": "85 k", "stats": { "M": 9, "F": 2, "AG": "2+", "CP": "4+", "AR": "8+" }, "skills": ["Animosité (Underworld Goblin Linemen)", "Esquive"], "primary": "AGM", "secondary": "FP" },
+      { "type": "Skaven Blitzer", "qty": "0-1", "cost": "90 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "5+", "AR": "9+" }, "skills": ["Animosité (Underworld Goblin Linemen)", "Blocage"], "primary": "GMF", "secondary": "AP" },
+      { "type": "Mutant Rat Ogre", "qty": "0-1", "cost": "150 k", "stats": { "M": 6, "F": 5, "AG": "4+", "CP": "-", "AR": "9+" }, "skills": ["Solitaire (4+)", "Sauvagerie Animale", "Frénésie", "Châtaigne (+1)", "Queue Préhensile"], "primary": "F", "secondary": "AGM" },
+      { "type": "Underworld Troll", "qty": "0-1", "cost": "115 k", "stats": { "M": 4, "F": 5, "AG": "5+", "CP": "5+", "AR": "10+" }, "skills": ["Toujours Affamé", "Solitaire (3+)", "Gerbe de Vomi", "Châtaigne (+1)", "Gros Débile", "Régénération", "Lancer de Coéquipier"], "primary": "F", "secondary": "AGM" }
+    ]
+  },
+  {
+    "name": "Élus du Chaos",
+    "description": "Des guerriers dévoués aux puissances du Chaos, combinant force brute et mutations.",
+    "category": 2,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Favorisés du Chaos Universel",
+    "players": [
+      { "type": "Beastman Runner Linemen", "qty": "0-16", "cost": "60 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "9+" }, "skills": ["Cornes"], "primary": "GFM", "secondary": "AP" },
+      { "type": "Chosen Blockers", "qty": "0-4", "cost": "100 k", "stats": { "M": 5, "F": 4, "AG": "3+", "CP": "5+", "AR": "10+" }, "skills": [], "primary": "GFM", "secondary": "A" },
+      { "type": "Chaos Troll", "qty": "0-1", "cost": "115 k", "stats": { "M": 4, "F": 5, "AG": "5+", "CP": "5+", "AR": "10+" }, "skills": ["Toujours Affamé", "Solitaire (4+)", "Gerbe de Vomi", "Châtaigne (+1)", "Gros Débile", "Régénération", "Lancer de Coéquipier"], "primary": "F", "secondary": "AGM" },
+      { "type": "Chaos Ogre", "qty": "0-1", "cost": "140 k", "stats": { "M": 5, "F": 5, "AG": "4+", "CP": "5+", "AR": "10+" }, "skills": ["Solitaire (4+)", "Châtaigne (+1)", "Crâne Épais", "Gros Débile", "Lancer de Coéquipier"], "primary": "F", "secondary": "AGM" },
+      { "type": "Minotaur", "qty": "0-1", "cost": "150 k", "stats": { "M": 5, "F": 5, "AG": "4+", "CP": "-", "AR": "9+" }, "skills": ["Solitaire (4+)", "Cornes", "Frénésie", "Châtaigne (+1)", "Sauvagerie Animale", "Crâne Épais"], "primary": "F", "secondary": "AGM" }
+    ]
+  },
+  {
+    "name": "Halflings",
+    "description": "Petits mais courageux, les Halflings misent sur leur agilité et leurs alliés Treemen.",
+    "category": 3,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Coupe du Dé à Coudre",
+    "players": [
+      { "type": "Halfling Hopeful Linemen", "qty": "0-16", "cost": "30 k", "stats": { "M": 5, "F": 2, "AG": "3+", "CP": "4+", "AR": "7+" }, "skills": ["Esquive", "Poids Plume", "Minus"], "primary": "A", "secondary": "GF" },
+      { "type": "Halfling Heftys", "qty": "0-2", "cost": "50 k", "stats": { "M": 5, "F": 2, "AG": "3+", "CP": "3+", "AR": "8+" }, "skills": ["Esquive", "Parade", "Minus"], "primary": "AP", "secondary": "GF" },
+      { "type": "Halfling Catchers", "qty": "0-2", "cost": "55 k", "stats": { "M": 5, "F": 2, "AG": "3+", "CP": "5+", "AR": "7+" }, "skills": ["Réception", "Esquive", "Poids Plume", "Minus", "Sprint"], "primary": "A", "secondary": "GF" },
+      { "type": "Altern Forest Treemen", "qty": "0-2", "cost": "120 k", "stats": { "M": 2, "F": 6, "AG": "5+", "CP": "5+", "AR": "11+" }, "skills": ["Solitaire (4+)", "Châtaigne (+1)", "Stabilité", "Bras Musclé", "Prendre Racine", "Crâne Épais", "Lancer de Coéquipier"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Humains",
+    "description": "Polyvalents et adaptables, les Humains excellent dans un style de jeu équilibré.",
+    "category": 1,
+    "rerolls": "50 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Classique du Vieux Monde, Super-ligue du Bord du Monde",
+    "players": [
+      { "type": "Human Linemen", "qty": "0-16", "cost": "50 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "9+" }, "skills": [], "primary": "G", "secondary": "AF" },
+      { "type": "Throwers", "qty": "0-2", "cost": "80 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "2+", "AR": "9+" }, "skills": ["Passe", "Prise Sûre"], "primary": "GP", "secondary": "AF" },
+      { "type": "Catchers", "qty": "0-4", "cost": "65 k", "stats": { "M": 8, "F": 2, "AG": "3+", "CP": "5+", "AR": "8+" }, "skills": ["Réception", "Esquive"], "primary": "GA", "secondary": "FP" },
+      { "type": "Blitzers", "qty": "0-4", "cost": "85 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "4+", "AR": "9+" }, "skills": ["Blocage"], "primary": "GF", "secondary": "AP" },
+      { "type": "Halfling Hopefuls", "qty": "0-3", "cost": "30 k", "stats": { "M": 5, "F": 2, "AG": "3+", "CP": "4+", "AR": "7+" }, "skills": ["Esquive", "Poids Plume", "Minus"], "primary": "A", "secondary": "GF" },
+      { "type": "Ogre", "qty": "0-1", "cost": "140 k", "stats": { "M": 5, "F": 5, "AG": "4+", "CP": "5+", "AR": "10+" }, "skills": ["Solitaire (4+)", "Châtaigne (+1)", "Crâne Épais", "Gros Débile", "Lancer de Coéquipier"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Nains du Chaos",
+    "description": "Robustes et agressifs, les Nains du Chaos combinent force et discipline.",
+    "category": 1,
+    "rerolls": "50 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Favorisés de Hashut",
+    "players": [
+      { "type": "Hobgoblin Linemen", "qty": "0-16", "cost": "40 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": [], "primary": "G", "secondary": "FA" },
+      { "type": "Hobgoblin Sneaky Stabba", "qty": "0-2", "cost": "70 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "5+", "AR": "8+" }, "skills": ["Poursuite", "Poignard"], "primary": "G", "secondary": "FA" },
+      { "type": "Chaos Dwarf Blockers", "qty": "0-4", "cost": "70 k", "stats": { "M": 4, "F": 3, "AG": "4+", "CP": "6+", "AR": "10+" }, "skills": ["Blocage", "Peau de Fer", "Crâne Épais"], "primary": "GF", "secondary": "AM" },
+      { "type": "Chaos Dwarf Bull Centaurs", "qty": "0-2", "cost": "130 k", "stats": { "M": 6, "F": 4, "AG": "4+", "CP": "5+", "AR": "10+" }, "skills": ["Sprint", "Prise Sûre", "Crâne Épais"], "primary": "GF", "secondary": "AM" },
+      { "type": "Minotaur", "qty": "0-1", "cost": "150 k", "stats": { "M": 5, "F": 5, "AG": "4+", "CP": "-", "AR": "9+" }, "skills": ["Solitaire (4+)", "Cornes", "Frénésie", "Châtaigne (+1)", "Sauvagerie Animale", "Crâne Épais"], "primary": "F", "secondary": "GAM" }
+    ]
+  },
+  {
+    "name": "Nurgle",
+    "description": "Les serviteurs de Nurgle sont résistants et contagieux, semant la maladie sur le terrain.",
+    "category": 2,
+    "rerolls": "70 000 po",
+    "apothecary": "Non",
+    "specialRules": "Favorisés de Nurgle",
+    "players": [
+      { "type": "Rotter Linemen", "qty": "0-12", "cost": "35 k", "stats": { "M": 5, "F": 3, "AG": "4+", "CP": "6+", "AR": "9+" }, "skills": ["Décomposition", "Contagieux"], "primary": "GM", "secondary": "AF" },
+      { "type": "Pestigors", "qty": "0-4", "cost": "75 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "9+" }, "skills": ["Cornes", "Contagieux", "Régénération"], "primary": "GMF", "secondary": "AP" },
+      { "type": "Bloaters", "qty": "0-4", "cost": "115 k", "stats": { "M": 4, "F": 4, "AG": "4+", "CP": "6+", "AR": "10+" }, "skills": ["Présence Perturbante", "Répulsion", "Contagieux", "Régénération"], "primary": "GMF", "secondary": "A" },
+      { "type": "Rotspawn", "qty": "0-1", "cost": "140 k", "stats": { "M": 4, "F": 5, "AG": "5+", "CP": "-", "AR": "10+" }, "skills": ["Solitaire (4+)", "Présence Perturbante", "Répulsion", "Contagieux", "Châtaigne (+1)", "Tentacules"], "primary": "F", "secondary": "AGM" }
+    ]
+  },
+  {
+    "name": "Renégats du Chaos",
+    "description": "Une équipe hétéroclite de renégats, unissant diverses races sous la bannière du Chaos.",
+    "category": 2,
+    "rerolls": "70 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Défi des Bas-Fonds, Favorisés du Chaos (au choix)",
+    "players": [
+      { "type": "Renegade Human Linemen", "qty": "0-12", "cost": "50 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "9+" }, "skills": [], "primary": "GM", "secondary": "AF" },
+      { "type": "Renegade Human Thrower", "qty": "0-1", "cost": "75 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "3+", "AR": "9+" }, "skills": ["Animosité (tous)", "Passe", "Libération Contrôlée"], "primary": "GMP", "secondary": "AF" },
+      { "type": "Renegade Goblin", "qty": "0-1", "cost": "40 k", "stats": { "M": 6, "F": 2, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Animosité (tous)", "Esquive", "Minus", "Poids Plume"], "primary": "AM", "secondary": "GF" },
+      { "type": "Renegade Skaven", "qty": "0-1", "cost": "50 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Animosité (tous)"], "primary": "GM", "secondary": "AF" },
+      { "type": "Renegade Dark Elf", "qty": "0-1", "cost": "75 k", "stats": { "M": 6, "F": 3, "AG": "2+", "CP": "4+", "AR": "9+" }, "skills": ["Animosité (tous)"], "primary": "AGM", "secondary": "FP" },
+      { "type": "Renegade Orc", "qty": "0-1", "cost": "50 k", "stats": { "M": 5, "F": 3, "AG": "3+", "CP": "4+", "AR": "10+" }, "skills": ["Animosité (tous)"], "primary": "GM", "secondary": "AF" },
+      { "type": "Troll", "qty": "0-1", "cost": "115 k", "stats": { "M": 4, "F": 5, "AG": "5+", "CP": "5+", "AR": "10+" }, "skills": ["Toujours Affamé", "Solitaire (3+)", "Gerbe de Vomi", "Châtaigne (+1)", "Gros Débile", "Régénération", "Lancer de Coéquipier"], "primary": "F", "secondary": "AGM" },
+      { "type": "Ogre", "qty": "0-1", "cost": "140 k", "stats": { "M": 5, "F": 5, "AG": "4+", "CP": "5+", "AR": "10+" }, "skills": ["Solitaire (4+)", "Châtaigne (+1)", "Crâne Épais", "Gros Débile", "Lancer de Coéquipier"], "primary": "F", "secondary": "AGM" },
+      { "type": "Minotaur", "qty": "0-1", "cost": "150 k", "stats": { "M": 5, "F": 5, "AG": "4+", "CP": "-", "AR": "9+" }, "skills": ["Solitaire (4+)", "Cornes", "Frénésie", "Châtaigne (+1)", "Sauvagerie Animale", "Crâne Épais"], "primary": "F", "secondary": "AGM" }
+    ]
+  },
+  {
+    "name": "Snotlings",
+    "description": "Minuscules et imprévisibles, les Snotlings compensent leur faiblesse par leur nombre.",
+    "category": 3,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Défi des Bas-Fonds",
+    "players": [
+      { "type": "Snotling Linemen", "qty": "0-16", "cost": "15 k", "stats": { "M": 5, "F": 1, "AG": "3+", "CP": "5+", "AR": "6+" }, "skills": ["Esquive", "Poids Plume", "Minus", "Glissade Contrôlée", "Déferlement", "Microbe"], "primary": "A", "secondary": "G" },
+      { "type": "Fungus Flingas", "qty": "0-2", "cost": "30 k", "stats": { "M": 5, "F": 1, "AG": "3+", "CP": "4+", "AR": "6+" }, "skills": ["Bombardier", "Esquive", "Arme Secrète", "Minus", "Glissade Contrôlée"], "primary": "AP", "secondary": "G" },
+      { "type": "Fun-hoppas", "qty": "0-2", "cost": "20 k", "stats": { "M": 6, "F": 1, "AG": "3+", "CP": "5+", "AR": "6+" }, "skills": ["Esquive", "Échasse à Ressort", "Poids Plume", "Minus", "Glissade Contrôlée"], "primary": "A", "secondary": "G" },
+      { "type": "Stilty Runnas", "qty": "0-2", "cost": "20 k", "stats": { "M": 6, "F": 1, "AG": "3+", "CP": "5+", "AR": "6+" }, "skills": ["Esquive", "Échasse à Ressort", "Poids Plume", "Minus", "Sprint"], "primary": "A", "secondary": "G" },
+      { "type": "Pumpa Waggons", "qty": "0-2", "cost": "60 k", "stats": { "M": 4, "F": 4, "AG": "4+", "CP": "-", "AR": "9+" }, "skills": ["Joueur Déloyal (+2)", "Châtaigne (+1)", "Arme Secrète", "Vraiment Très Gros"], "primary": "F", "secondary": "GA" },
+      { "type": "Trained Trolls", "qty": "0-2", "cost": "115 k", "stats": { "M": 4, "F": 5, "AG": "5+", "CP": "5+", "AR": "10+" }, "skills": ["Toujours Affamé", "Solitaire (3+)", "Gerbe de Vomi", "Châtaigne (+1)", "Gros Débile", "Régénération", "Lancer de Coéquipier"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Amazones",
+    "description": "Agiles et disciplinées, les Amazones combinent vitesse et technique de blocage.",
+    "category": 1,
+    "rerolls": "50 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Super-ligue Lustrien",
+    "players": [
+      { "type": "Amazon Linewomen", "qty": "0-16", "cost": "50 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Esquive"], "primary": "GA", "secondary": "F" },
+      { "type": "Piranha Warrior Catchers", "qty": "0-2", "cost": "70 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Réception", "Esquive"], "primary": "GA", "secondary": "F" },
+      { "type": "Python Warrior Throwers", "qty": "0-2", "cost": "75 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "3+", "AR": "8+" }, "skills": ["Esquive", "Passe"], "primary": "GAP", "secondary": "F" },
+      { "type": "Jaguar Warrior Blitzers", "qty": "0-4", "cost": "90 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Blocage", "Esquive"], "primary": "GAF", "secondary": "P" },
+      { "type": "Kroxigor", "qty": "0-1", "cost": "140 k", "stats": { "M": 6, "F": 5, "AG": "4+", "CP": "-", "AR": "10+" }, "skills": ["Solitaire (4+)", "Châtaigne (+1)", "Crâne Épais", "Queue Préhensile", "Sauvagerie Animale"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Elfes Noirs",
+    "description": "Méchants et doués, les Elfes Noirs jouent un style agressif, préférant le jeu au sol.",
+    "category": 1,
+    "rerolls": "50 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Ligue des Royaumes Elfiques",
+    "players": [
+      { "type": "Dark Elf Linemen", "qty": "0-12", "cost": "70 k", "stats": { "M": 6, "F": 3, "AG": "2+", "CP": "4+", "AR": "9+" }, "skills": [], "primary": "GA", "secondary": "F" },
+      { "type": "Runners", "qty": "0-2", "cost": "80 k", "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "3+", "AR": "8+" }, "skills": ["Libération Contrôlée"], "primary": "GAP", "secondary": "F" },
+      { "type": "Assassins", "qty": "0-2", "cost": "85 k", "stats": { "M": 6, "F": 3, "AG": "2+", "CP": "5+", "AR": "8+" }, "skills": ["Poursuite", "Poignard"], "primary": "GA", "secondary": "F" },
+      { "type": "Blitzers", "qty": "0-4", "cost": "100 k", "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "4+", "AR": "9+" }, "skills": ["Blocage"], "primary": "GAF", "secondary": "P" },
+      { "type": "Witch Elves", "qty": "0-2", "cost": "110 k", "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "5+", "AR": "8+" }, "skills": ["Frénésie", "Esquive", "Saut"], "primary": "GAF", "secondary": "P" }
+    ]
+  },
+  {
+    "name": "Elfes Sylvains",
+    "description": "Rapides et agiles, les Elfes Sylvains excellent dans le jeu de passe et l'évasion.",
+    "category": 2,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Ligue des Royaumes Elfiques",
+    "players": [
+      { "type": "Wood Elf Linemen", "qty": "0-12", "cost": "70 k", "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "4+", "AR": "8+" }, "skills": [], "primary": "AG", "secondary": "F" },
+      { "type": "Catchers", "qty": "0-4", "cost": "90 k", "stats": { "M": 8, "F": 2, "AG": "2+", "CP": "4+", "AR": "7+" }, "skills": ["Réception", "Esquive", "Sprint"], "primary": "AG", "secondary": "FP" },
+      { "type": "Throwers", "qty": "0-2", "cost": "95 k", "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "2+", "AR": "8+" }, "skills": ["Passe"], "primary": "AGP", "secondary": "F" },
+      { "type": "Wardancers", "qty": "0-2", "cost": "115 k", "stats": { "M": 8, "F": 3, "AG": "2+", "CP": "4+", "AR": "8+" }, "skills": ["Blocage", "Esquive", "Saut"], "primary": "AGF", "secondary": "P" },
+      { "type": "Treeman", "qty": "0-1", "cost": "120 k", "stats": { "M": 2, "F": 6, "AG": "5+", "CP": "5+", "AR": "11+" }, "skills": ["Solitaire (4+)", "Châtaigne (+1)", "Stabilité", "Bras Musclé", "Prendre Racine", "Crâne Épais", "Lancer de Coéquipier"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Hauts Elfes",
+    "description": "Gracieux et précis, les Hauts Elfes dominent le jeu de passe avec élégance.",
+    "category": 2,
+    "rerolls": "50 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Ligue des Royaumes Elfiques",
+    "players": [
+      { "type": "High Elf Linemen", "qty": "0-12", "cost": "70 k", "stats": { "M": 6, "F": 3, "AG": "2+", "CP": "4+", "AR": "9+" }, "skills": [], "primary": "GA", "secondary": "FP" },
+      { "type": "Throwers", "qty": "0-2", "cost": "95 k", "stats": { "M": 6, "F": 3, "AG": "2+", "CP": "2+", "AR": "9+" }, "skills": ["Passe", "Prise Sûre"], "primary": "GAP", "secondary": "F" },
+      { "type": "Catchers", "qty": "0-4", "cost": "90 k", "stats": { "M": 8, "F": 3, "AG": "2+", "CP": "3+", "AR": "8+" }, "skills": ["Réception"], "primary": "GA", "secondary": "FP" },
+      { "type": "Blitzers", "qty": "0-2", "cost": "100 k", "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "4+", "AR": "9+" }, "skills": ["Blocage"], "primary": "GAF", "secondary": "P" }
+    ]
+  },
+  {
+    "name": "Union Elfique",
+    "description": "Une équipe elfique polyvalente, spécialisée dans la rapidité et le jeu de passe.",
+    "category": 2,
+    "rerolls": "50 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Ligue des Royaumes Elfiques",
+    "players": [
+      { "type": "Elven Union Linemen", "qty": "0-12", "cost": "60 k", "stats": { "M": 6, "F": 3, "AG": "2+", "CP": "4+", "AR": "8+" }, "skills": [], "primary": "GA", "secondary": "FP" },
+      { "type": "Throwers", "qty": "0-2", "cost": "75 k", "stats": { "M": 6, "F": 3, "AG": "2+", "CP": "2+", "AR": "8+" }, "skills": ["Passe"], "primary": "GAP", "secondary": "F" },
+      { "type": "Catchers", "qty": "0-4", "cost": "100 k", "stats": { "M": 8, "F": 3, "AG": "2+", "CP": "3+", "AR": "7+" }, "skills": ["Réception", "Nerfs d’Acier"], "primary": "GA", "secondary": "FP" },
+      { "type": "Blitzers", "qty": "0-2", "cost": "115 k", "stats": { "M": 7, "F": 3, "AG": "2+", "CP": "4+", "AR": "8+" }, "skills": ["Blocage", "Parade"], "primary": "GAF", "secondary": "P" }
+    ]
+  },
+  {
+    "name": "Hommes-Lézards",
+    "description": "Une combinaison de Skinks rapides et de Saurus puissants, idéale pour un jeu équilibré.",
+    "category": 1,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Super-ligue Lustrien",
+    "players": [
+      { "type": "Skink Runner Linemen", "qty": "0-12", "cost": "60 k", "stats": { "M": 8, "F": 2, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Esquive", "Minus"], "primary": "AG", "secondary": "FP" },
+      { "type": "Chameleon Skinks", "qty": "0-2", "cost": "70 k", "stats": { "M": 7, "F": 2, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Esquive", "Passe dans l’Ombre"], "primary": "AGP", "secondary": "F" },
+      { "type": "Saurus Blockers", "qty": "0-6", "cost": "85 k", "stats": { "M": 6, "F": 4, "AG": "4+", "CP": "5+", "AR": "10+" }, "skills": [], "primary": "GF", "secondary": "A" },
+      { "type": "Kroxigor", "qty": "0-1", "cost": "140 k", "stats": { "M": 6, "F": 5, "AG": "4+", "CP": "-", "AR": "10+" }, "skills": ["Solitaire (4+)", "Châtaigne (+1)", "Crâne Épais", "Queue Préhensile", "Sauvagerie Animale"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Morts-Vivants",
+    "description": "Une équipe de squelettes et de zombies soutenus par des goules et des momies.",
+    "category": 1,
+    "rerolls": "70 000 po",
+    "apothecary": "Non",
+    "specialRules": "Alliance des Morts-Vivants, Maîtres de l’Undeath",
+    "players": [
+      { "type": "Skeleton Linemen", "qty": "0-12", "cost": "40 k", "stats": { "M": 5, "F": 3, "AG": "4+", "CP": "6+", "AR": "8+" }, "skills": ["Régénération", "Crâne Épais"], "primary": "G", "secondary": "AF" },
+      { "type": "Zombie Linemen", "qty": "0-12", "cost": "40 k", "stats": { "M": 4, "F": 3, "AG": "4+", "CP": "6+", "AR": "9+" }, "skills": ["Régénération"], "primary": "G", "secondary": "AF" },
+      { "type": "Ghoul Runners", "qty": "0-4", "cost": "75 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Esquive"], "primary": "GA", "secondary": "F" },
+      { "type": "Wights", "qty": "0-2", "cost": "90 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "5+", "AR": "9+" }, "skills": ["Blocage", "Régénération"], "primary": "GF", "secondary": "A" },
+      { "type": "Mummies", "qty": "0-2", "cost": "125 k", "stats": { "M": 3, "F": 5, "AG": "5+", "CP": "-", "AR": "10+" }, "skills": ["Châtaigne (+1)", "Régénération"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Nécromantiques",
+    "description": "Une équipe macabre mêlant goules, loups-garous et golems de chair.",
+    "category": 2,
+    "rerolls": "70 000 po",
+    "apothecary": "Non",
+    "specialRules": "Alliance des Morts-Vivants, Maîtres de l’Undeath",
+    "players": [
+      { "type": "Zombie Linemen", "qty": "0-12", "cost": "40 k", "stats": { "M": 4, "F": 3, "AG": "4+", "CP": "6+", "AR": "9+" }, "skills": ["Régénération"], "primary": "G", "secondary": "AF" },
+      { "type": "Ghoul Runners", "qty": "0-2", "cost": "75 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Esquive"], "primary": "GA", "secondary": "F" },
+      { "type": "Wraiths", "qty": "0-2", "cost": "95 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "-", "AR": "9+" }, "skills": ["Blocage", "Parade", "Régénération", "Sans les Mains"], "primary": "GF", "secondary": "A" },
+      { "type": "Werewolves", "qty": "0-2", "cost": "125 k", "stats": { "M": 8, "F": 3, "AG": "3+", "CP": "4+", "AR": "9+" }, "skills": ["Griffes", "Frénésie", "Régénération"], "primary": "GAF", "secondary": "P" },
+      { "type": "Flesh Golems", "qty": "0-2", "cost": "115 k", "stats": { "M": 4, "F": 4, "AG": "4+", "CP": "-", "AR": "10+" }, "skills": ["Régénération", "Stabilité"], "primary": "GF", "secondary": "A" }
+    ]
+  },
+  {
+    "name": "Nordiques",
+    "description": "Des guerriers robustes et agressifs, adeptes du combat au corps-à-corps.",
+    "category": 1,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Classique du Vieux Monde",
+    "players": [
+      { "type": "Norse Linemen", "qty": "0-12", "cost": "50 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Blocage"], "primary": "GF", "secondary": "A" },
+      { "type": "Norse Throwers", "qty": "0-2", "cost": "70 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "3+", "AR": "8+" }, "skills": ["Blocage", "Passe"], "primary": "GFP", "secondary": "A" },
+      { "type": "Norse Runners", "qty": "0-2", "cost": "90 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Blocage", "Esquive"], "primary": "GAF", "secondary": "P" },
+      { "type": "Norse Berserkers", "qty": "0-2", "cost": "90 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Blocage", "Frénésie", "Saut"], "primary": "GF", "secondary": "AP" },
+      { "type": "Ulfwereners", "qty": "0-2", "cost": "105 k", "stats": { "M": 6, "F": 4, "AG": "3+", "CP": "-", "AR": "9+" }, "skills": ["Frénésie"], "primary": "GF", "secondary": "A" },
+      { "type": "Yhetee", "qty": "0-1", "cost": "140 k", "stats": { "M": 5, "F": 5, "AG": "4+", "CP": "-", "AR": "9+" }, "skills": ["Solitaire (4+)", "Griffes", "Frénésie", "Présence Perturbante", "Sauvagerie Animale"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Orques",
+    "description": "Lents mais résistants, les Orques privilégient la force brute.",
+    "category": 1,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Classique du Vieux Monde, Super-ligue du Bord du Monde",
+    "players": [
+      { "type": "Orc Linemen", "qty": "0-12", "cost": "50 k", "stats": { "M": 5, "F": 3, "AG": "3+", "CP": "4+", "AR": "10+" }, "skills": [], "primary": "G", "secondary": "AF" },
+      { "type": "Goblin Linemen", "qty": "0-4", "cost": "40 k", "stats": { "M": 6, "F": 2, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Esquive", "Poids Plume", "Minus"], "primary": "A", "secondary": "GF" },
+      { "type": "Throwers", "qty": "0-2", "cost": "65 k", "stats": { "M": 5, "F": 3, "AG": "3+", "CP": "3+", "AR": "9+" }, "skills": ["Prise Sûre", "Passe"], "primary": "GP", "secondary": "AF" },
+      { "type": "Blitzers", "qty": "0-4", "cost": "80 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "10+" }, "skills": ["Blocage"], "primary": "GF", "secondary": "AP" },
+      { "type": "Black Orcs", "qty": "0-4", "cost": "90 k", "stats": { "M": 4, "F": 4, "AG": "4+", "CP": "5+", "AR": "10+" }, "skills": ["Attrape"], "primary": "GF", "secondary": "A" },
+      { "type": "Troll", "qty": "0-1", "cost": "115 k", "stats": { "M": 4, "F": 5, "AG": "5+", "CP": "5+", "AR": "10+" }, "skills": ["Toujours Affamé", "Solitaire (3+)", "Gerbe de Vomi", "Châtaigne (+1)", "Gros Débile", "Régénération", "Lancer de Coéquipier"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Orques Noirs",
+    "description": "Une équipe robuste et brutale, combinant la force des Orques Noirs avec l'agilité des Gobelins Bruisers et la puissance d'un Troll entraîné.",
+    "category": 1,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Classique du Vieux Monde, Super-ligue du Bord du Monde",
+    "players": [
+      { "type": "Goblin Bruiser Linemen", "qty": "0-12", "cost": "45 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": ["Esquive", "Poids Plume", "Minus"], "primary": "A", "secondary": "GF" },
+      { "type": "Black Orcs", "qty": "0-6", "cost": "90 k", "stats": { "M": 4, "F": 4, "AG": "4+", "CP": "6+", "AR": "10+" }, "skills": ["Attrape"], "primary": "GF", "secondary": "A" },
+      { "type": "Trained Troll", "qty": "0-1", "cost": "115 k", "stats": { "M": 4, "F": 5, "AG": "5+", "CP": "5+", "AR": "10+" }, "skills": ["Toujours Affamé", "Solitaire (3+)", "Gerbe de Vomi", "Châtaigne (+1)", "Gros Débile", "Régénération", "Lancer de Coéquipier"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Rois des Tombes",
+    "description": "Une équipe ancienne et résistante, menée par des squelettes et des gardiens des tombes.",
+    "category": 2,
+    "rerolls": "70 000 po",
+    "apothecary": "Non",
+    "specialRules": "Alliance des Morts-Vivants, Maîtres de l’Undeath",
+    "players": [
+      { "type": "Skeleton Linemen", "qty": "0-12", "cost": "40 k", "stats": { "M": 5, "F": 3, "AG": "4+", "CP": "6+", "AR": "8+" }, "skills": ["Régénération", "Crâne Épais"], "primary": "G", "secondary": "AF" },
+      { "type": "Thrower-Ra", "qty": "0-2", "cost": "70 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "3+", "AR": "8+" }, "skills": ["Passe", "Prise Sûre", "Régénération"], "primary": "GP", "secondary": "AF" },
+      { "type": "Blitz-Ra", "qty": "0-2", "cost": "90 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "5+", "AR": "9+" }, "skills": ["Blocage", "Régénération"], "primary": "GF", "secondary": "A" },
+      { "type": "Tomb Guardians", "qty": "0-4", "cost": "100 k", "stats": { "M": 4, "F": 5, "AG": "5+", "CP": "-", "AR": "10+" }, "skills": ["Décomposition", "Garde"], "primary": "F", "secondary": "AG" }
+    ]
+  },
+  {
+    "name": "Skavens",
+    "description": "Rapides et fragiles, les Skavens misent sur leur vitesse et leurs coureurs d'égout.",
+    "category": 1,
+    "rerolls": "60 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Défi des Bas-Fonds",
+    "players": [
+      { "type": "Skaven Clanrat Linemen", "qty": "0-12", "cost": "50 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": [], "primary": "G", "secondary": "AFM" },
+      { "type": "Throwers", "qty": "0-2", "cost": "85 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "3+", "AR": "8+" }, "skills": ["Passe", "Prise Sûre"], "primary": "GP", "secondary": "AFM" },
+      { "type": "Gutter Runners", "qty": "0-4", "cost": "85 k", "stats": { "M": 9, "F": 2, "AG": "2+", "CP": "4+", "AR": "8+" }, "skills": ["Esquive"], "primary": "AG", "secondary": "FPM" },
+      { "type": "Blitzers", "qty": "0-2", "cost": "90 k", "stats": { "M": 7, "F": 3, "AG": "3+", "CP": "5+", "AR": "9+" }, "skills": ["Blocage"], "primary": "GF", "secondary": "APM" },
+      { "type": "Rat Ogre", "qty": "0-1", "cost": "150 k", "stats": { "M": 6, "F": 5, "AG": "4+", "CP": "-", "AR": "9+" }, "skills": ["Solitaire (4+)", "Sauvagerie Animale", "Frénésie", "Châtaigne (+1)", "Queue Préhensile"], "primary": "F", "secondary": "AGM" }
+    ]
+  },
+  {
+    "name": "Vampires",
+    "description": "Des vampires puissants soutenus par des serviteurs, avec un style de jeu risqué.",
+    "category": 3,
+    "rerolls": "70 000 po",
+    "apothecary": "Oui",
+    "specialRules": "Alliance des Morts-Vivants",
+    "players": [
+      { "type": "Thrall Linemen", "qty": "0-16", "cost": "40 k", "stats": { "M": 6, "F": 3, "AG": "3+", "CP": "4+", "AR": "8+" }, "skills": [], "primary": "G", "secondary": "AF" },
+      { "type": "Vampire Runners", "qty": "0-6", "cost": "110 k", "stats": { "M": 6, "F": 4, "AG": "2+", "CP": "4+", "AR": "9+" }, "skills": ["Soif de Sang", "Hypnose", "Régénération"], "primary": "GAF", "secondary": "P" }
+    ]
+  }
+]
